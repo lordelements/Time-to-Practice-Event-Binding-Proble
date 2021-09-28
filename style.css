@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+}
+header{
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    background-color: #099c3a;
+    border-radius: 10px;
+    margin: 3rem auto;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    padding: 1rem;
+    max-width: 30rem;
+    height: 90px;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-style: normal;
+    
+}h2{
+    font-size: 2rem;
+    border-bottom: 4px solid rgb(15, 14, 14);
+    color: #09ad40;
+    margin: 0 0 1rem 0;
+}p{
+    font-size: 1.25rem;
+    border: 1px solid #32af0c;
+    background-color: #3ffc58;
+    color: black;
+    padding: 0.5rem;
+    border-radius: 25px;
+}#events{
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    margin: 3rem auto;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    max-width: 30rem;
+}input{
+    width: 50% ;
+    height: 2rem;
+    margin: 2rem auto;
+    border-radius: 20px;
+    
+}input:focus{
+    outline: none;
+    border-color: #1b995e;
+    background-color: #d7fdeb;
+}
+button{
+    background-color: rgb(247, 4, 4);
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    width: 9rem;
+    height: 2rem;
+}.circle {
+    background: linear-gradient(135deg, transparent 30%, #149279);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    
+}.circle.one{
+    background: linear-gradient(135deg, transparent 40%, #9c4f07);
+    width: 130px;
+    height: 130px;
+    top: 130px;
+    line-height: -40px;
+    
+}.circle.two{
+    background: linear-gradient(135deg, transparent 40%, #c91111);
+    width: 80px;
+    height: 80px;
+    top: 10px;
+    line-height: 30px;
+}
+

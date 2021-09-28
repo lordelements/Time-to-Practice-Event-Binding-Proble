@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Event Binding Problem</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/vue@next"></script>
+</head>
+<body>
+    <header>
+        <h1>Events</h1>
+    </header>
+    <section id="events">
+        <h2>Event Practice</h2>
+        <br>
+           <form v-on:submit.prevent="submitForm">
+             <button>Show Alert</button>
+           </form>
+        <hr>
+        <input type="text" v-on:input="setfirstInput" v-on:keyup.enter="confirmedInputfirst">
+        <p>OUTPUT: {{ confirmedName }}</p>
+        <hr>
+        <input type="text" v-on:input="setsecondInput" v-on:keyup.enter="confirmedInputsecond">
+        <p>OUTPUT: {{ confirmednameInput }}</p>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
